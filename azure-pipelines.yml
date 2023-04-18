@@ -7,7 +7,7 @@
     script: |
       # Write your commands here
       
-      git diff --name-only HEAD HEAD~1
+      git diff `--name-only` `HEAD` `HEAD~1`
 # https://aka.ms/yaml
 
 trigger:
